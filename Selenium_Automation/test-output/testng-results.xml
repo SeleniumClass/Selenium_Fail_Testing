@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="2" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6049" started-at="2018-07-26T03:42:45Z" finished-at="2018-07-26T03:42:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6049" started-at="2018-07-26T03:42:45Z" finished-at="2018-07-26T03:42:51Z">
+      <class name="com.automation.TestClass2">
+        <test-method status="FAIL" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.TestClass2@6c9f5c0d]" name="beforemethod" is-config="true" duration-ms="3" started-at="2018-07-26T03:42:46Z" finished-at="2018-07-26T03:42:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.TestClass2.testtest()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.report.BaseTest.beforemethod(BaseTest.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="SKIP" signature="testtest()[pri:0, instance:com.automation.TestClass2@6c9f5c0d]" name="testtest" duration-ms="0" started-at="2018-07-26T03:42:46Z" finished-at="2018-07-26T03:42:46Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.report.BaseTest.beforemethod(BaseTest.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtest -->
+        <test-method status="SKIP" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.TestClass2@6c9f5c0d]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-07-26T03:42:46Z" finished-at="2018-07-26T03:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.automation.TestClass2 -->
+      <class name="com.automation.TestClass">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:com.automation.TestClass@17695df3]" name="beforesuit" is-config="true" duration-ms="234" started-at="2018-07-26T03:42:45Z" finished-at="2018-07-26T03:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.TestClass@17695df3]" name="beforemethod" is-config="true" duration-ms="6" started-at="2018-07-26T03:42:46Z" finished-at="2018-07-26T03:42:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.TestClass.testtest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="testtest()[pri:0, instance:com.automation.TestClass@17695df3]" name="testtest" duration-ms="5777" started-at="2018-07-26T03:42:46Z" finished-at="2018-07-26T03:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtest -->
+        <test-method status="SKIP" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.TestClass@17695df3]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-07-26T03:42:51Z" finished-at="2018-07-26T03:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="SKIP" signature="sfterSuite()[pri:0, instance:com.automation.TestClass@17695df3]" name="sfterSuite" is-config="true" duration-ms="0" started-at="2018-07-26T03:42:51Z" finished-at="2018-07-26T03:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sfterSuite -->
+      </class> <!-- com.automation.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

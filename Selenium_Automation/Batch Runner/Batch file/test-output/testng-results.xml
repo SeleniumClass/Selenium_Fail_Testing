@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="47855" started-at="2018-06-06T03:01:27Z" finished-at="2018-06-06T03:02:14Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="47855" started-at="2018-06-06T03:01:27Z" finished-at="2018-06-06T03:02:14Z">
+      <class name="com.test.LoginfunctionTest_1001">
+        <test-method status="PASS" signature="login_1001()[pri:0, instance:com.test.LoginfunctionTest_1001@1bca7292]" name="login_1001" duration-ms="47835" started-at="2018-06-06T03:01:27Z" finished-at="2018-06-06T03:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_1001 -->
+      </class> <!-- com.test.LoginfunctionTest_1001 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
